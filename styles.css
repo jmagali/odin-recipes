@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS";
+}
+
+body {
+    background-image: url("https://wallpapers.com/images/hd/pink-grid-ysbeks1u8deoifh2.jpg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 12px;
+    background-color: #FC2D59;
+}
+
+h2 {
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    padding: 20px;
+}
+
+li {
+    margin: 0px 12px;
+}
+
+p {
+    text-align: center;
+    text-wrap: pretty;
+}
+
+.desc {
+    width: 350px;
+    height: fit-content;
+    padding: 20px;
+    margin: 10px;
+}
+
+div {
+    background-color: #FADADD;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ingredients {
+    background-color: #FADADD;
+    margin: 12px 0px;
+    width: 50vw;
+    height: fit-content;
+    text-align: center;
+}
+
+.steps {
+    background-color: #FADADD;
+    padding: 20px;
+    margin: 12px 0;
+    width: 50vw;
+    height: fit-content;
+}
+
+img {
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button, 
+.recipes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #FADADD;
+    border-radius: 0;
+    margin: 10px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
