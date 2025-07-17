@@ -64,6 +64,10 @@ section {
     text-align: center;
 }
 
+.hide li {
+    list-style-type: none;
+}
+
 .steps {
     background-color: #FADADD;
     padding: 20px;
